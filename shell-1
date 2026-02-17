@@ -2,8 +2,8 @@
 person1=reddy
 person2=dada
 
-$person1= hi $person2, how are you?
-$person2 = hi $person1, iam fine, how are doinh?
-$person1 = i am fine $person2, are ayr worinh
-$person2  = yes ia  working $person1
+echo "$person1= hi $person2, how are you?"
+echo "$person2 = hi $person1, iam fine, how are doinh?"
+echo "$person1 = i am fine $person2, are ayr worinh"
+echo "$person2  = yes ia  working $person1"
 
