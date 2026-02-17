@@ -1,0 +1,10 @@
+#!/bin/blash
+$person1=$1
+$person2= $2
+
+$person1= hi $person2, how are you?
+$person2 = hi $person1, iam fine, how are doinh?
+$person1 = i am fine $person2, are ayr worinh
+$person2  = yes ia  working $person1
+
+
