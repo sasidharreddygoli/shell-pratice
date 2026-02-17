@@ -1,10 +1,9 @@
 #!/bin/blash
-#$person1=reddy
-#$person2=dada
+person1=reddy
+person2=dada
 
-reddy= hi ramu, how are you?
-ramu = hi reddy, iam fine, how are doinh?
-reddy = i am fine ramu, are ayr worinh
-ramu  = yes ia  working reddy
-
+$person1= hi $person2, how are you?
+$person2 = hi $person1, iam fine, how are doinh?
+$person1 = i am fine $person2, are ayr worinh
+$person2  = yes ia  working $person1
 
