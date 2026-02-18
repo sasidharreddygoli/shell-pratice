@@ -1,0 +1,30 @@
+#!/bin/blash
+
+userid = $(id -u )
+
+if [ $($userid -ne 0)]; then 
+    echo "print error"
+    exit 1
+fi
+
+validate()
+{
+    if [ $1 -ne 0 ]; then 
+            echo "work with root $2"
+
+    else 
+        echo "$2"
+}
+
+dnf install nginx -y 
+
+validate $? "mysql"
+
+dnf install mysql -y 
+
+validate $? "mysql"
+
+dnf install python3 -y
+
+validate $? "mysql"
+
