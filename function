@@ -13,6 +13,7 @@ validate(){
 
     else 
         echo "$2"
+    fi 
 }
 
 dnf install nginx -y 
