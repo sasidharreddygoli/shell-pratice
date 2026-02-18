@@ -1,3 +1,5 @@
 #!/bin/blash
 name=("d" "d" " d")
 echo "pribt bame ${name[@]}" 
+
+echo "frst  bame ${name[2]}" 
